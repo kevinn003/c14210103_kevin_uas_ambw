@@ -15,7 +15,7 @@ Penjelasan fitur :
 3. Fitur add recipe : Fitur untuk user dapat menambahkan resep. User memasukan nama resep, deskripsi, dan bahan. Resep yang berhasil di add ditampilkan di halaman recipe list page.
 4. Fitur edit recipe : Pada halaman recipe list page, user dapat klik button "pensil" untuk edit resep.
 5. Fitur delete recipe : Pada halaman recipe list page, user dapat klik button "sampah" untuk delete resep.
-6. Proile page : User dapat melihat profil yang berisi profile picture, nama, dan email. User dapat klik button "sign out" untuk sign out.
+6. Profile page : User dapat melihat profil yang berisi profile picture, nama, dan email. User dapat klik button "sign out" untuk sign out.
 
 Langkah install dan build : 
 1. Pastikan ndkVersion = "29.0.13599879" 
