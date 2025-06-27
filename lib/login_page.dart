@@ -89,7 +89,7 @@ Widget build(BuildContext context) {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // 🔽 Logo
+              // Logo
               Image.asset(
                 'assets/logoSplash.png',
                 width: 100,
@@ -97,7 +97,7 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 20),
               
-              // 🔽 Judul Login
+              // Judul Login
               const Text(
                 'Login',
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
@@ -105,7 +105,7 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 40),
 
-              // 🔽 Email
+              // Email
               TextFormField(
                 controller: _emailController,
                 decoration: const InputDecoration(
@@ -121,7 +121,7 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 20),
 
-              // 🔽 Password
+              // Password
               TextFormField(
                 controller: _passwordController,
                 decoration: const InputDecoration(
@@ -134,7 +134,7 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 10),
 
-              // 🔽 Forgot Password
+              // Forgot Password
               Align(
                 alignment: Alignment.centerRight,
                 child: TextButton(
@@ -147,7 +147,7 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 10),
 
-              // 🔽 Login Button
+              // Login Button
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 16),
@@ -164,7 +164,7 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 16),
 
-              // 🔽 Link ke Register
+              // Link ke Register
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
