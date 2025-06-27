@@ -28,5 +28,6 @@ Teknologi yang digunakan :
 2. Shared preferences untuk menyimpan session informasi login user
 
 dummy user : test@gmail.com
+
 dummy password : 12345678
 
